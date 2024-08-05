@@ -1,0 +1,10 @@
+Int [] n = new int [5];
+int soma = 0;
+
+for (int i = 0; i < 5; i++)
+ {
+|    Console.WriteLine("escreva um número");
+|    n[i] = Convert.ToInt32(Console.ReadLine());
+|    soma = soma + n[i]; 
+ }
+Console.WriteLine("o valor do resultado é" + soma);
